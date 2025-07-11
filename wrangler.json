@@ -1,0 +1,8 @@
+{
+  "$schema": "https://unpkg.com/wrangler@latest/config-schema.json",
+  "name": "flaredream-providers",
+  "compatibility_date": "2025-06-29",
+  "dev": { "port": 3000 },
+  "assets": { "directory": "./public" },
+  "routes": [{ "custom_domain": true, "pattern": "providers.flaredream.com" }]
+}
